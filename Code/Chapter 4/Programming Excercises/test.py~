@@ -1,0 +1,14 @@
+def main():
+    weight = float(input('Enter your weight in pounds: '))
+    height = float(input('Enter your height in inches: '))
+    bmi = weight * 703 / height**2
+
+    if bmi < 26:
+        if bmi < 18.5:
+            print('Your BMI is:', format(bmi, '.1f'), '\nYou are underweight.')
+        else:
+            print('Your BMI is:', format(bmi, '.1f'), '\nYou are at an optimal weight.')
+    else:
+        print('Your BMI is:', format(bmi, '.1f'), '\nYou are overweight.')
+
+main()
