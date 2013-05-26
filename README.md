@@ -12,7 +12,7 @@ Ubuntu: apt-get install git
 cd to your folder that you want to copy to and type
 git clone https://github.com/techabyte/python.git
 
-Thanks it!
+Thats it!
 
 To download the latest update just do
 git pull
