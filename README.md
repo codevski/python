@@ -1,4 +1,4 @@
-python
+Python Workbook
 ======
 
-PythonStud
+This workbook is based on Starting out with Python - 2nd Edition
