@@ -1,3 +1,4 @@
+# Program 6-10
 # This program calculates the length of a right
 # triangle's hypotenuse.
 import math
