@@ -1,3 +1,4 @@
+# Program 6-2
 # This program displays five random
 # numbers in the range of 1 though 100.
 import random
