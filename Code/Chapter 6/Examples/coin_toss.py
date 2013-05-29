@@ -1,3 +1,4 @@
+# Program 6-5
 # This program simulates 10 tosses of a coin.
 import random
 
