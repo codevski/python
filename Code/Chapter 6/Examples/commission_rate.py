@@ -1,3 +1,4 @@
+# Program 6-8
 # This program calculates a saleperson's pay
 # at Make Your Own Music.
 def main():

@@ -1,3 +1,4 @@
+# Program 6-6
 # This program uses the return values of a function.
 
 def main():

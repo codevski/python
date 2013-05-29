@@ -1,3 +1,4 @@
+# Program 6-7
 # This program calculates a retail item's
 # sale price
 
