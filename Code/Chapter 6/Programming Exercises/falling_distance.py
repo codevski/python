@@ -3,11 +3,11 @@
 import math
 
 def main():
-	sec = int(input('falling time in secs: '))
-	dis = falling_distance(sec)
-	print(dis)
+	for count in range(1, 10):
+		dis = falling_distance(count)
+		print(dis)
 
-def falling_distance(sec):
-	d = (0.5) * (9.8) * (sec**2)
+def falling_distance(count):
+	d = (0.5) * (9.8) * (count**2)
 	return d
 main()
