@@ -1,3 +1,4 @@
+# Chapter 6
 # This program displays a random number
 # in the range of 1 through 10
 import random
