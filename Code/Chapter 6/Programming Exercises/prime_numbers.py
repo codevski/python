@@ -1,7 +1,5 @@
 # Programming Excerises
 # Prime Numbers
-import math
-import random
 
 def main():
 	num = int(input('Enter Number: '))
