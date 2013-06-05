@@ -19,22 +19,17 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
-#
-# Programming Excerises
-# Prime Numbers
+#  
+#  
 
 def main():
-	num = int(input('Enter Number: '))
-	result = is_prime(num)
-	if result == True:
-		print(num, 'is a prime number')
-	else:
-		print(num, 'not a prime number')
-
+	for number in range(101):
+		prime = is_prime(number)
+		if prime == True:
+			print(number)
+		
 def is_prime(num):
-	for x in range(2, int(num**0.5)+1):
-		if num % x == 0:
-			return False
+	if num % 2 == 0:
+		return False
 	return True
-
 main()
