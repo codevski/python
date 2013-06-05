@@ -21,9 +21,9 @@
 #  MA 02110-1301, USA.
 #  
 #  
-
 def main():
-	for number in range(101):
+	print('The Following are Prime Numbers')
+	for number in range(2, 101):
 		prime = is_prime(number)
 		if prime == True:
 			print(number)
