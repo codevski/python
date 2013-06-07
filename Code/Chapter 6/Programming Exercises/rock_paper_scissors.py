@@ -22,14 +22,44 @@
 #  
 #  
 import random
-ROCK = 1
-PAPER = 2
-SCISSORS = 3
+
 
 def main():
 	x = random.randint(1, 3)
-	guess = int(input('rock, paper or scissors?: '))
-
+	if x == 1:
+		x = 'ROCK'
+	elif x == 2:
+		x = 'PAPER'
+	elif x == 3:
+			x = 'SCISSORS'
+	guess = input('rock, paper or scissors?: ')
+	print('CPU: ', x, 'Player: ', guess)
+	result = winner(x, guess)
+	if result == 'tie':
+		print('Its a tie try again!')
+		main()
+	else:
+		print(result, 'Wins')
+	
+def winner(x, guess):
+	if guess == 'scissors' and x == 'ROCK':
+		win = 'rock'
+		return win
+	elif guess == 'paper' and x == 'SCISSORS':
+		win = 'scissors'
+		return win
+	elif guess == 'paper' and x == 'ROCK':
+		win = 'paper'
+		return win
+	elif guess == 'rock' and x == 'PAPER':
+		win = 'paper'
+		return win
+	elif guess == 'rock' and x == 'SCISSORS':
+		win = 'rock'
+		return win
+	else:
+		win = 'tie'
+		return win
 if __name__ == '__main__':
 	main()
 
